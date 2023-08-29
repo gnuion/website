@@ -1,8 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  telemetry: {
+    enabled: false
+  },
   devtools: { enabled: true },
   devServer: {
-    host: "127.0.0.1", 
+    host: "0.0.0.0", 
   },
   vite: {
     server: {
