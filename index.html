@@ -3,10 +3,203 @@
 <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json">
-<link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.96f09f1a.js">
-<link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.9a11ce91.js">
-<link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.4a263044.js">
-<script type="module" src="/_nuxt/entry.96f09f1a.js" crossorigin=""></script></head>
-<body ><div id="__nuxt"><div> Hello </div></div><script type="application/json" id="__NUXT_DATA__" data-ssr="true" data-src="/_payload.json">[{"state":1,"_errors":3,"serverRendered":5,"path":6,"prerenderedAt":7},["Reactive",2],{},["Reactive",4],{},true,"/",1693357797410]</script>
+<link rel="stylesheet" href="/_nuxt/entry.0ea13495.css">
+<style>/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,ul {
+  list-style: none;
+}
+
+blockquote,q {
+  quotes: none;
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+</style>
+<style>#--unocss--{layer:__ALL__}</style>
+<style>
+body {
+    background: #000;
+    box-sizing: border-box;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.lens-center {
+    background: radial-gradient(closest-side circle at center,
+        #fff 0, 
+        #fff 15%, 
+        hsla(4,10%,70%,.7) 30%,
+        hsla(0,0%,50%,.3) 55%,
+        hsl(4 0% 10% / 5%) 75%,
+        transparent 99%
+    );
+    border-radius: 100%;
+    filter: blur(4px);
+    height: 40vmin;
+    left: calc(35% - 20vmin);
+    position: relative;
+    top: calc(35% - 20vmin);
+    width: 40vmin;
+}
+.lens-center:before{
+    background: radial-gradient(closest-side circle at center,
+      hsla(4,15%,70%,.15) 0,
+      transparent 100%);
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 80vmin;
+    left: -20vmin;
+    position: absolute;
+    top: -20vmin;
+    width: 80vmin;
+}
+.lens-center:after {
+    background: radial-gradient(closest-side circle at center,
+        hsla(4,30%,70%,.6) 0,
+        transparent 75%);
+    border-radius: 100%;
+    bottom: 25%;
+    content: "";
+    display: block;
+    height: 4vmin;
+    left: 65%;
+    position: absolute;
+    width: 4vmin;
+}
+.circle-1 {
+    background: radial-gradient(closest-side circle at center,
+        transparent 50%,
+        hsla(4,10%,70%,.4) 90%,
+        transparent 100%);
+    border-radius: 100%;
+    filter: blur(5px);
+    height: 28vmin;
+    left: 65%;
+    position: absolute;
+    top: 65%;
+    width: 28vmin;
+}
+.circle-2 {
+    background:  hsla(4,10%,60%,.4);
+    border-radius: 100%;
+    filter: blur(2px);
+    height: 16vmin;
+    left: 62%;
+    position: absolute;
+    top: 62%;
+    width: 16vmin;
+}
+.horizontal-flare {
+    height: 5vh;
+    position: absolute;
+}
+.right-flare {
+    background: radial-gradient(ellipse at center left,
+        hsla(4,20%,90%,.8) 0,
+        hsla(4,10%,70%,.4) 30%,
+        transparent 75%);
+    filter: opacity(50%);
+    left: 35%;
+    top: calc(35% - 2.5vh);
+    width: calc(100vw - 35%);
+}
+.left-flare {
+    background: radial-gradient(ellipse at center right,
+        hsla(4,20%,90%,.6) 0,
+        hsl(14 10% 70% / 40%) 30%,
+        transparent 75%);
+    filter: opacity(40%);
+    left: 0;
+    top: calc(35% - 2.5vh);
+    width: 35%;
+}
+.full-flare {
+    background: radial-gradient(closest-side ellipse at 45% center,
+        hsla(4,20%,90%,.8) 0,
+        hsla(4,10%,70%,.3) 30%,
+        transparent 95%); 
+    filter: blur(5px);
+    left: 0;
+    top: 75vh;
+    width: 100%;
+}
+.conic-1 {
+    background: conic-gradient(from 5deg at 0 100%, 
+        transparent 0deg,
+        hsla(4,10%,70%,.3) 15deg,
+        transparent 30deg);
+    bottom: calc(100vh - 35%);
+    filter: blur(5px);
+    height: 64vmin;
+    left: 35%;
+    position: absolute;
+    width: 64vmin;
+}
+.conic-2 {
+    background: conic-gradient(from -5deg at 0 100%, 
+        transparent 0deg,
+        hsla(4,10%,70%,.3) 45deg,
+        transparent 90deg);
+    bottom: calc(100vh - 35%);
+    height: 120vmin;
+    left: 35%;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: bottom left;
+    width: 120vmin;
+}
+.conic-3 {
+    background: conic-gradient(from 5deg at 0 100%, 
+        transparent 0deg,
+        hsla(4,10%,70%,.3) 7deg,
+        transparent 15deg);
+    bottom: calc(100vh - 35%);
+    filter: blur(5px);
+    height: 124vmin;
+    left: 35%;
+    position: absolute;
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+    width: 124vmin;
+}
+</style>
+<link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.ed76e65f.js">
+<link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.a7c28c1d.js">
+<link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.708ce951.js">
+<script type="module" src="/_nuxt/entry.ed76e65f.js" crossorigin=""></script></head>
+<body ><div id="__nuxt"><!--[--><header class="text-white py-2"><nav class="flex max-w-6xl mx-auto justify-between"><div><span class="text-xl uppercase font-bold">Jon</span></div><ul class="flex gap-4 text-xl"><li> Blog </li><li> Projects </li><li> Demo </li></ul></nav></header><div class="left-flare horizontal-flare"></div><div class="right-flare horizontal-flare"></div><div class="full-flare horizontal-flare"></div><div class="lens-center"></div><div class="circle-1"></div><div class="circle-2"></div><div class="conic-1"></div><div class="conic-2"></div><div class="conic-3"></div><!--]--></div><script type="application/json" id="__NUXT_DATA__" data-ssr="true" data-src="/_payload.json">[{"state":1,"_errors":3,"serverRendered":5,"path":6,"prerenderedAt":7},["Reactive",2],{},["Reactive",4],{},true,"/",1693475950862]</script>
 <script>window.__NUXT__={};window.__NUXT__.config={public:{},app:{baseURL:"/",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script></body>
 </html>
