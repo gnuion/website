@@ -9,20 +9,22 @@ export class CaoticMovement {
   }>;
   #colorArray;
   #cursor = [0, 0]
-  #maxSpeed = 1;
+  #maxSpeed;
   #num;
   #ctx;
   #defaultSize;
   #maxSize = 100;
-  #minSize = 20;
-  constructor({ num, ctx, colorArray = [] }: {
+  #minSize = 10;
+  constructor({ num, ctx, colorArray = [], maxSpeed = 1 }: {
     num: number;
     ctx: CanvasRenderingContext2D;
+    maxSpeed: number;
     colorArray?: Array<string>
   }) {
     this.#ctx = ctx;
     this.#num = num;
     this.#defaultSize = 20;
+    this.#maxSpeed = maxSpeed;
     this.#colorArray = colorArray || [];
     this.#items = this.createItems();
   }
@@ -33,7 +35,7 @@ export class CaoticMovement {
 
   private createItem() {
     const color = this.#colorArray[Math.floor(Math.random() * this.#colorArray.length)]
-    const size = this.#defaultSize;
+    const size = Math.random() * (this.#maxSize - this.#minSize) + this.#minSize;
     const x = Math.random() * (this.#ctx.canvas.width - size) + size / 2
     const y = Math.random() * (this.#ctx.canvas.height - size) + size / 2
     const dx = Math.random() * this.#maxSpeed

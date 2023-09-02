@@ -1,6 +1,6 @@
 <template>
-  <div class="absolute inset-0 bg-red -z-1 overflow-hidden">
-    <canvas class="bg-green-900 w-full h-full" ref="cvs" />
+  <div class="fixed inset-0 bg-red -z-1 overflow-hidden">
+    <canvas class="bg-black w-full h-full" ref="cvs" />
   </div>
 </template>
 
@@ -15,9 +15,10 @@ onMounted(() => {
     cvs.value.height = window.innerHeight
     const ctx = cvs.value.getContext('2d')!
     const diamonds = new CaoticMovement({
-      num: 100,
+      num: 10,
       ctx,
-      colorArray: ["#de3d3d", "#090c0b", "#0d2527", "#267368", "#00b1a0"]
+      colorArray: ["#de3d3d", "#090c0b", "#0d2527", "#267368", "#00b1a0"],
+      maxSpeed: .5,
     })
     diamonds.animate()
     watch(mouse.value, (updatedMouse) => {
