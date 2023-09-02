@@ -12,7 +12,9 @@ on:
 
 permissions:
   contents: write
-  
+
+env:
+  NUXT_APP_BASE_URL: '/${{ github.event.repository.name }}'
 jobs:
   build:
     runs-on: ubuntu-latest
