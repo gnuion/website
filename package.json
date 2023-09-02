@@ -3,13 +3,18 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.54",
     "@nuxt/devtools": "latest",
+    "@unocss/nuxt": "^0.55.3",
     "nuxt": "^3.7.0"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.55.3"
   }
-} 
+}

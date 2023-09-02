@@ -3,17 +3,9 @@ export default defineNuxtConfig({
   telemetry: {
     enabled: false
   },
+  css: ['@unocss/reset/eric-meyer.css', 'virtual:uno.css'],
+  modules: [
+    '@unocss/nuxt',
+  ],
   devtools: { enabled: true },
-  devServer: {
-    host: "0.0.0.0", 
-  },
-  vite: {
-    server: {
-      hmr: {
-        host: "ws://24678.ibexcode.gray/",
-        port: 24678,
-        clientPort: 80
-      }
-    }
-  }
 })
