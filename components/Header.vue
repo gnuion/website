@@ -1,6 +1,6 @@
 <template>
   <header class="text-black font-bold font-mono py-2 z-50 fixed left-0 top-0 right-0  bg-yellow-500/50 ">
-    <nav class="flex max-w-6xl mx-auto justify-between">
+    <nav class="flex max-w-6xl mx-auto justify-between px-6">
       <div>
         <NuxtLink to="/">
           <span class="text-xl uppercase font-bold">Jon</span>
@@ -23,21 +23,21 @@ a {
 </style>
 <script setup lang="ts">
 const links = [
-  {
-    id: 0,
-    label: "Blog",
-    link: "/blog"
-  },
+  // {
+  //   id: 0,
+  //   label: "Blog",
+  //   link: "/blog"
+  // },
   {
     id: 1,
     label: "Projects",
     link: "/projects"
   },
-  {
-    id: 2,
-    label: "Demo",
-    link: "/demo"
-  }
+  // {
+  //   id: 2,
+  //   label: "Demo",
+  //   link: "/demo"
+  // }
 ]
 // const headerData = useData()
 // console.log(headerData)

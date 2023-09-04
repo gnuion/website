@@ -12,7 +12,8 @@
     "@iconify-json/mdi": "^1.1.54",
     "@nuxt/devtools": "latest",
     "@unocss/nuxt": "^0.55.3",
-    "nuxt": "^3.7.0"
+    "nuxt": "^3.7.0",
+    "vite-plugin-glsl": "^1.1.2"
   },
   "dependencies": {
     "@unocss/reset": "^0.55.3"

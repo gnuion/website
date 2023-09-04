@@ -1,3 +1,5 @@
+import glsl from 'vite-plugin-glsl';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   telemetry: {
@@ -7,5 +9,8 @@ export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
   ],
-  devtools: { enabled: true },
+  vite: {
+    plugins: [glsl()]
+  },
+  devtools: { enabled: false }
 })
