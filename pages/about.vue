@@ -4,9 +4,8 @@
       Hello 👋🏼, I am <em>Jon</em> [ʤɔ́n]. I speak a few human and machien languages.
     </div>
     <div>
-      I love automation! I believe it can improve our lives and free up time. So I learned Kubernetes and Helm.
-      Unknowingly I might have some golang experience by tinkering with Helm, OPA Gatekeeper, Traefik and other tools I
-      might not know they are built in Golang yet.
+      Automation is great! I believe it can improve our lives and free up time. I know Kubernetes, Helm, OPA Gatekeeper,
+      Traefik and other tools. Currently exploring WebGL.
     </div>
     <div>
       Passionate about open source and software in general. Recently I discovered Nix and I became a fan. It is 
