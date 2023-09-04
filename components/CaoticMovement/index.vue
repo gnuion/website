@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import { CaoticMovement } from './caoticMovement'
+import { CaoticMovement } from './modules/caoticMovement'
 const cvs = ref<HTMLCanvasElement | null>(null)
 const mouse = useMouse();
 

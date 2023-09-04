@@ -1,7 +1,7 @@
 <template>
   <section class="flex flex-col gap-4">
     <div class="">
-      Hello 👋🏼, I am <em>gnuion</em> [gnuion] pronounced the same according to IPA. Native English speakers may have difficulties because their language is not pronounced the same as it is written. I believe French is even worse. I don't know why. Anyhow, any language is beautiful. And some can be used to talk to non living things, such as computers. It is wonderful to see how this evolution is shaping our world.
+      HhhHello 👋🏼, I am <em>gnuion</em> [gnuion] pronounced the same according to IPA. Native English speakers may have difficulties because their language is not pronounced the same as it is written. I believe French is even worse. I don't know why. Anyhow, any language is beautiful. And some can be used to talk to non living things, such as computers. It is wonderful to see how this evolution is shaping our world.
     </div>
     <div>
       I love automation! I believe it can improve our lives and free up time. So I learned Kubernetes and Helm.
