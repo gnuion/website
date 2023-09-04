@@ -1,1 +1,0 @@
-import{_ as o}from"./nuxt-link.c3c99fa3.js";import{_ as n,c as s,a as e,b as c,w as _,o as a}from"./entry.b8c8e135.js";const r={},l={class:"text-xl"},d=e("h2",null,"webGL experiments",-1);function i(x,m){const t=o;return a(),s("div",null,[e("div",null,[e("header",l,[c(t,{to:"/projects/webgl"},{default:_(()=>[d]),_:1})])])])}const f=n(r,[["render",i]]);export{f as default};
