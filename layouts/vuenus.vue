@@ -1,7 +1,6 @@
 <template>
-  <div class="min-h-[100vh] flex flex-col">
+  <div class="min-h-[100vh] flex flex-col  bg-black">
     <Header />
-    <CaoticMovement />
     <main class="text-lg text-white w-full grow-1 max-w-6xl px-6 pt-20 mx-auto font-mono">
       <slot />
     </main>
