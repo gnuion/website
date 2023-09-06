@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-[100vh] flex flex-col">
+  <div class="min-h-[100vh] flex flex-col bg-black">
     <Header />
-    <CaoticMovement />
+    <!-- <CaoticMovement /> -->
     <main class="text-lg text-white w-full grow-1 max-w-6xl px-6 pt-20 mx-auto font-mono">
       <slot />
     </main>
@@ -11,9 +11,5 @@
 <style lang="css">
 main a {
   --at-apply: underline decoration-dotted text-inherit underline-offset-6;
-
-  &[disabled] {
-    --at-apply: text-gray-7;
-  }
 }
 </style>

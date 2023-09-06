@@ -12,9 +12,15 @@
     "@iconify-json/mdi": "^1.1.54",
     "@nuxt/devtools": "latest",
     "@unocss/nuxt": "^0.55.3",
-    "nuxt": "^3.7.0"
+    "nuxt": "^3.7.0",
+    "vite-plugin-glsl": "^1.1.2"
   },
   "dependencies": {
-    "@unocss/reset": "^0.55.3"
+    "@codemirror/lang-css": "^6.2.1",
+    "@codemirror/lang-javascript": "^6.2.1",
+    "@codemirror/lang-xml": "^6.0.2",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@unocss/reset": "^0.55.3",
+    "codemirror": "^6.0.1"
   }
 }

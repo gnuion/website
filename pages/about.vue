@@ -1,18 +1,19 @@
 <template>
   <section class="flex flex-col gap-4">
     <div class="">
-      Hello 👋🏼, I am <em>gnuion</em> [gnuion] pronounced the same according to IPA. Native English speakers may have difficulties because their language is not pronounced the same as it is written. I believe French is even worse. I don't know why. Anyhow, any language is beautiful. And some can be used to talk to non living things, such as computers. It is wonderful to see how this evolution is shaping our world.
+      Hello 👋🏼, I am <em>gnuion</em> [gnuion] pronounced the same. Native speakers of languages that are not pronounced
+      the same as they are written, such as English and French, may have difficulties. Anyhow, any language is useful. And
+      some can be used to program computers to do things for us.
     </div>
     <div>
-      I love automation! I believe it can improve our lives and free up time. So I learned Kubernetes and Helm.
-      Unknowingly I might have some golang experience by tinkering with Helm, OPA Gatekeeper, Traefik and other tools I
-      might not know they are built in Golang yet.
+      Automation is great! I believe it can improve our lives and free up time. I know Kubernetes, Helm, OPA Gatekeeper,
+      Traefik and other tools. Currently exploring WebGL.
     </div>
     <div>
-      Passionate about open source software. Most of the technologies I use everyday are open source. I am using a KDE desktop environment running on an alpine laptop. I got so adapted to linux that I probablly would get lost in Windows 11. My dream is to finally be able to exit the vim editor. Then I'd be calling myself a developer.
+      Interested in technology, open-source, machine learning, desktop environments, automation, 3Dgraphics.
     </div>
     <div>
-      Besides my passing for coding and abstract thinking, I enjoy a good workout. 
+      Besides coding and abstract thinking, I workout.
     </div>
   </section>
   <section class="mt-20 line-height-8">
